@@ -1,0 +1,71 @@
+fun main() {
+/*
+
+    //1. Informar todos os números de 1000 a 1999
+    // que quando divididos por 11 obtemos resto = 5. (FOR)
+
+    for (i in 1000..1999) {
+
+        if (i % 11 == 5) {
+            println(i)
+
+        }
+*/
+    //.............................................................................
+/*
+
+
+  //3.Solicitar a idade de várias pessoas e imprimir: Total de
+  pessoas com menos de 21 anos. Total de pessoas com mais de 50 anos.
+   O programa termina quando idade for =-99. (WHILE)
+
+
+    var idade = 0
+    var maiorIdade = 0
+    var menorIdade = 0
+
+    while (idade != -99) {
+
+        println("Digite uma idade:")
+        idade = readLine()!!.toInt()
+
+        if (idade in 0..21) {
+            menorIdade++
+        } else if(idade >= 50){
+            maiorIdade++
+        }
+
+    }
+
+    println("Tiveram $menorIdade com menos de 21 anos é $maiorIdade com mais de 50 anos")
+
+}
+*/
+//.........................................................................................
+
+
+    //5. Escrever um programa que receba vários números inteiros no teclado.
+    // E no final imprimir a média
+    // dos números múltiplos de 3. Para sair digitar 0(zero).(DO...WHILE)
+/*
+
+    var num = 0
+    var mul = 0
+
+    do {
+        print("digite um numero: ")
+        var i = readLine()!!.toInt()
+
+        if (i % 3 == 0 && i != 0) {
+            mul++
+            num += i
+        }
+    }while (i != 0)
+
+    var conv = num.toDouble() / mul.toDouble()
+
+
+    println("Media dos multiplos são : $conv")
+
+*/
+
